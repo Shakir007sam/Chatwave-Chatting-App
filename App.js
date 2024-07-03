@@ -15,7 +15,7 @@ const sessionMiddleware = session({
     secret: "changeit",
     resave: false,
     saveUninitialized: true,
-    store: MongoStore.create({ mongoUrl: 'mongodb+srv://abdulshakirsam45:Hello@cluster0.sfiktyh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'})
+    store: MongoStore.create({ mongoUrl: 'mongodb+srv://abdulshakirsam45:<password>@cluster0.sfiktyh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'})
   });
 
 app.use(sessionMiddleware);
@@ -70,7 +70,7 @@ io.on("connection", (socket)=>{
     
 })
 
-mongoose.connect("mongodb+srv://abdulshakirsam45:Hello@cluster0.sfiktyh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("mongodb+srv://abdulshakirsam45:<password>@cluster0.sfiktyh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 .then(()=>{
     httpServer.listen(Port, ()=>{
         console.log("Server Running at Port", Port);
