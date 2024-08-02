@@ -20,7 +20,7 @@ This is a real-time chat application built using Node.js, Express, and Socket.IO
 To run the chat app locally, follow these steps:
 
 1. Clone the repository:
-`git clone https://github.com/ImHarsh23/Chat-App.git`
+`git clone https://github.com/Shakir007sam/Chatwave-Chatting-App.git`
 2. Navigate to the project directory:
 3. Install the dependencies:
 `npm i`
