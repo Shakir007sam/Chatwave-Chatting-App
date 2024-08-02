@@ -1,15 +1,15 @@
 {
-  "name": "23.-chat-app",
+  "name": "chatwave",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A real-time chat application using Express, Handlebars, and Socket.io",
+  "main": "App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node App.js",
-    "dev": "nodemon app.js"
+    "start": "node App.js",
+    "dev": "nodemon App.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["chat", "express", "socket.io", "real-time"],
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "connect-mongo": "^5.1.0",
