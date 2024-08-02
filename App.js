@@ -38,7 +38,7 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
-    res.render("home");
+    res.render("Index");
 });
 
 app.get("/login", (req, res) => {
